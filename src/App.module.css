@@ -1,0 +1,63 @@
+body{
+    /* background-color: rgb(250,250,250); */
+    /* background-image: url("https://www.todopaisajes.com/1366x768/estrella-en-el-espacio.jpg"); */
+    background-image: url('images/corona1.jpg');
+    background-repeat: no-repeat; background-size: cover; 
+    background-position: 50% 50%;
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+}
+.logo {
+    width: 300px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 300px;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .image {
+      width: 100%;
+    }
+  }
+ /* body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } 
+ canvas{ display: block; vertical-align: bottom; } 
+ #particlesjs{ position:absolute; width: 100%; height: 100%; background-color: #b61924; background-image: url("https://www.todopaisajes.com/1366x768/estrella-en-el-espacio.jpg"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } 
+  .countparticles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; }
+   .jscountparticles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } 
+   .countparticles{ border-radius: 0 0 3px 3px; } */
+
+/* #painel{
+  font-family: 'Source Sans Pro';
+  font-size: 1.3em;
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  height: 220px;
+  background: #eee;
+  top: 50%;
+  left: 50%;
+  margin: -110px 0 0 -100px;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  z-index: 100;
+  background: rgba(0,0,0,0.7);
+  filter: blur(0px);
+} */
+/* 
+#painel h1{
+  color:#dcdcdc;
+} */
+.example{
+  position:absolute !important;
+  }
