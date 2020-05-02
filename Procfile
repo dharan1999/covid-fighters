@@ -1,1 +1,0 @@
-web: covid-fighters:app
